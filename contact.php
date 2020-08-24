@@ -29,16 +29,16 @@ if($_POST) {
     }
      
     if($concerned_department == "billing") {
-        $recipient = "info@villainteriors.in";
+        $recipient = "abc@xyz.in";
     }
     else if($concerned_department == "marketing") {
-        $recipient = "info@villainteriors.in";
+        $recipient = "abc@xyz.in";
     }
     else if($concerned_department == "technical support") {
-        $recipient = "info@villainteriors.in";
+        $recipient = "abc@xyz.in";
     }
     else {
-        $recipient = "info@villainteriors.in";
+        $recipient = "abc@xyz.in";
     }
      
     $headers  = 'MIME-Version: 1.0' . "\r\n"
@@ -57,7 +57,7 @@ if($_POST) {
  
 ?>
 <!doctype html>
-<!-- Website template by freewebsitetemplates.com -->
+
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -150,7 +150,7 @@ if($_POST) {
 						<a href="https://facebook.com/sserd.org" class="facebook">facebook</a>
 						<a href="https://twitter.com/sserd_org" class="twitter">twitter</a>
 						<!--<a href="https://instagram.com/sserd_org" ><i class="fab fa-instagram"></i>instagram</a>-->
-						<!--<a href="http://pinterest.com/fwtemplates/" class="pinterest">pinterest</a>-->
+						
 					</div>
 				</div>
 			</div>
